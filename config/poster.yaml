@@ -1,0 +1,17 @@
+# A3 poster defaults for Windows Docker + Qwen3-VL-Plus
+# A3 landscape size is 16.54 x 11.69 inches. Keep text smaller than the
+# original 48 x 36 poster defaults to reduce overlap on A3.
+
+main_text_font_size: 14
+section_title_font_size: 22
+poster_title_font_size: 26
+poster_author_font_size: 11
+
+title_text_color: [0, 0, 0]
+title_fill_color: null
+
+main_text_color: [32, 52, 74]
+main_text_fill_color: null
+
+section_title_vertical_align: "middle"
+section_title_symbol: ""

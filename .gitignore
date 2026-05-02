@@ -1,0 +1,70 @@
+# Secrets and local editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.claude
+CLAUDE.md
+
+# Personal input papers and private data
+Paper2Poster-data/
+Example/
+
+# Generated poster outputs and intermediate artifacts
+output_posters/
+*_generated_posters/
+*_images_and_tables/
+contents/
+tmp/
+tree_splits/
+eval_results/
+eval_time_detail_parallel/
+
+# Generated poster/export files if accidentally placed elsewhere
+*.pptx
+*.ppt
+*.pdf
+*.tiff
+*.bmp
+
+# Keep project logo assets even though generated images are ignored via output folders
+!logo_store/**/*.png
+!logo_store/**/*.jpg
+!logo_store/**/*.jpeg
+
+# Logs and runtime artifacts
+*.log
+*.tmp
+*.bak
+log.json
+detail_log.json
+
+# Python cache and virtual environments
+**/__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Model/cache directories
+hf_cache/
+.cache/
+.cache-modelscope/
+model_cache/
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Notebooks and shell scratch scripts
+*.ipynb
+*.sh
+
+# Legacy project folders if recreated locally
+Paper2Poster/
+ablations/
