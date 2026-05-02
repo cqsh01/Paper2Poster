@@ -11,6 +11,12 @@
 
 生成的是 **poster（学术海报）**，保存格式是 **PowerPoint `.pptx`**，因此可以继续用 PowerPoint/WPS 编辑。
 
+## 归属
+
+此仓库是原始 Paper2Poster 项目的定制分支。
+它保留了原始的 MIT 许可证，并已针对 Windows + Docker + Qwen3-VL-Plus 工作流进行了适配。
+
+请勿提交个人 API 密钥、私有论文或生成的输出结果。
 ---
 
 ## 1. 目录说明
